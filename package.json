@@ -1,0 +1,17 @@
+{
+  "name": "rtc-app",
+  "version": "1.0.0",
+  "description": "First electron app ",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . RTC-APPX "
+  },
+  "author": "Quentin Marechal",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.6.2",
+    "electron-menu": "^1.0.0",
+    "electron-packager": "^8.6.0"
+  }
+}
